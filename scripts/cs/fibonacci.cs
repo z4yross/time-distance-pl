@@ -11,10 +11,10 @@ namespace Fibonacci
         {
             int a, b, limite, i, auxiliar; 
             limite = 10000000; 
-            a = 0;
+            a = 1;
             b = 1; 
             DateTime tiempo1 = DateTime.Now; 
-            for (i = 0; i < limite; i++)  
+            for (i = 2; i < limite; i++)  
             {
                 auxiliar = a;
                 a = b; 

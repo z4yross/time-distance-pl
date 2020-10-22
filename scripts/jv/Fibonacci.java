@@ -8,7 +8,7 @@ class Main{
     public static void main(String args[]){
         long inicioF = System.currentTimeMillis();
         int n=1, f=1;
-        for(double i=0; i<10000000; i++){
+        for(double i=2; i<10000000; i++){
             int t = f;
             f += n;
             n=t;
